@@ -1,0 +1,11 @@
+This codes corresponds to th experiments with KSIG - Éden Silva
+
+- first experiment is done to find the correlation between the KSIG output and desired signal;
+- second is to compare KSIG and KLMS;
+- Both experiment work with two filtering jobs: prediction and equalization;
+- each file corresponds to a combination of experiment and job;
+- the files "expN_XXX.m" is the experiment N relative to the job XXX, with N in {1,2} and XXX in {prediction, equalization}
+
+- the files "result_expN_XXX.mat" just show the results localized on "expN_XXX.mat", where
+N in {1,2} and XXX is equal to {prediction, equalization}
+
